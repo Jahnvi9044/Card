@@ -22,7 +22,7 @@ const Card = () => {
         {/* Section 2: Content */}
    
     
-      <div className="relative bg-blue-900 flex justify-center items-center py-5">
+      <div className=" relative bg-[#242677] flex justify-center items-center py-5">
         {/* Background Section */}
         
 
@@ -61,7 +61,7 @@ const Card = () => {
             {/* Right Section (Images) */}
          </div>
          
-         <img  class=" absolute z-0  md:block w-[40%] bottom-2 right-0" src={img} alt="" />
+         <img  class=" overflow:hidden absolute z-0  md:block w-[47%] bottom-0 right-0 " src={img} alt="" />
 
         </div>
   
