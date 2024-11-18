@@ -69,21 +69,21 @@ const Card = () => {
 
         {/* Section 3: More Content */}
         <div className=" flex items-center justify-center bg-white-300">
-          <div className='text-[9px]  flex flex-col justify-between pl-5 pr-4 min-[480]:pr-8 pt-3 pb-5'>
+          <div className='text-[9px] font-medium flex flex-col justify-between pl-5 pr-4 min-[480]:pr-8 pt-3 pb-5'>
                <p> Hi Daniel, </p>
                <br />
                <p>We understand that you're busy, and that is why we've made this week's webinar, 
-                  2019 CX Industry Report: The rise of the Experience Economy, available online for 
+                  2019 CX Industry Report: The rise of the Experience Economy, <span className='text-blue-600'> <a href="">available online</a></span> for 
                   you to watch. Feel free to share the link with your colleagues.
                 </p>
                  <br /> 
-                <p>Here is the link to the presentation slides.</p>
+                <p>Here is the link to the <span className='text-blue-600'> <a href=""> presentation slides.</a></span></p>
                 <br />
                 <p>Enjoy!</p>
                 <p>UserTesting Team</p>
                 <br />
                 <br />
-                <p>Ready to talk to us and make better CX decisions in 2019? Click here.</p>
+                <p>Ready to talk to us and make better CX decisions in 2019? <span className='text-blue-600'> <a href=""> Click here.</a></span></p>
              
           </div>  
     
