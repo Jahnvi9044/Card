@@ -9,10 +9,11 @@ import img from './taskImg.jpg';
 
 const Card = () => {
   return (
-    <div className="p-10 flex justify-center min-h-screen items-center bg-gray-100">
+    <div className=" flex justify-center min-h-screen items-center bg-gray-100">
       {/* Card Container */}
-     <div className="pl-0 pr-0 w-[80%] bg-white shadow-lg rounded-sm max-w-sm  mx-auto ">
+     <div className="pl-0 pr-0 max-w-[330px] bg-white shadow-lg rounded-sm  mx-auto ">
         {/* Section 1: Logo */}
+
         <div className="flex justify-center items-center ">
           <img src={logo} alt="Logo" className="w-28 sm:w-28 md:w-28 " />
         </div>
@@ -20,7 +21,7 @@ const Card = () => {
         {/* Section 2: Content */}
    
     
-      <div className="relative bg-indigo-950  flex justify-center items-center py-10">
+      <div className="relative bg-indigo-950 flex justify-center items-center py-10">
         {/* Background Section */}
         <div className="absolute inset-0 bg-cover bg-center z-0"></div>
 
@@ -70,8 +71,9 @@ const Card = () => {
 
         {/* Section 3: More Content */}
         <div className=" flex items-center justify-center bg-white-300">
-          <div className='text-[8px]  flex flex-col justify-between pl-5 pr-12 pt-3 pb-5'>
+          <div className='text-[9px]  flex flex-col justify-between pl-5 pr-4 min-[480]:pr-8 pt-3 pb-5'>
                <p> Hi Daniel, </p>
+               <br />
                <p>We understand that you're busy, and that is why we've made this week's webinar, 
                   2019 CX Industry Report: The rise of the Experience Economy, available online for 
                   you to watch. Feel free to share the link with your colleagues.
@@ -84,14 +86,14 @@ const Card = () => {
                 <br />
                 <br />
                 <p>Ready to talk to us and make better CX decisions in 2019? Click here.</p>
-                <br />
+             
           </div>  
     
         </div>
 
         {/* Section 4: Footer or Buttons */}
 
-    <div className="flex flex-col items-center bg-blue-700 p-6 rounded-b-sm">
+    <div className="flex flex-col items-center bg-blue-700 p-3 rounded-b-sm">
       {/* "Follow Us On" Text */}
       <p className="text-white text-lg font-semibold mb-4">Follow Us On</p>
 
