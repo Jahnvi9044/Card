@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF,faLinkedinIn, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 // import heroImageTopRight from '/download.png'; // Replace with actual image
 // import heroImageBottomRight from '/download.png';
-// import { faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import img from './taskImg.jpg';
 
 const Card = () => {
@@ -31,8 +31,8 @@ const Card = () => {
           
             {/* Left Section (Text Content) */}
             <div className=" text-left pl-5">
-           
-             <p className="text-[12px] text-blue-700">Live Webinar</p>
+             <FontAwesomeIcon icon={faCircle} className="text-blue-600 text-[10px] ]" />
+             <p className=" m-1 inline text-[12px] text-blue-600">Live Webinar</p>
 
              {/* Main Heading */}
              <h1 className="text-[24px] leading-[20px] pr-2 font-bold text-white pb-3">The rise of the Experience Economy</h1>
